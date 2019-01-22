@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: arial;
+  background-color: lightgrey !important;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.wrapper {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: darkgrey;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+h6 > a {
+  color: white !important;
+}
+
+h3 > a {
+  color: white !important;
+}
